@@ -30,7 +30,7 @@ class App extends Component {
             options={{
               draggable: true
             }}
-            trigger={<Button node="button">SIDE NAV DEMO</Button>}
+            trigger={<Button node="button"><Icon>list</Icon></Button>}
           >
             <SideNavItem
               user={{
